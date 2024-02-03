@@ -180,7 +180,7 @@ return selectedAnnouncement ? (
         <Button onClick={handleBack}>뒤로 가기</Button>
         <Button onClick={() => handleSave(selectedAnnouncement)}>저장하기</Button>
 {/*        <Button onClick={() => handleDelete(selectedAnnouncement)}>삭제하기</Button>*/}
-        <span><img src='./inae_images/delete_icon.png' alt='삭제하기' style={{width:'30px', padding:0, margin:10, verticalAlign: 'middle'}} onClick={() => handleSave(selectedAnnouncement)}/></span>
+        <span><img src='./inae_images/delete_icon.png' alt='삭제하기' style={{width:'30px', padding:0, margin:10, verticalAlign: 'middle'}} onClick={() => handleDelete(selectedAnnouncement)}/></span>
       </span>
     </div>
   </div>
